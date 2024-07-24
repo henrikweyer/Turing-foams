@@ -14,7 +14,7 @@ _Min-experiment_ &mdash; Analysis of experimental data of the _E. coli_ Min prot
 
 _Min-simulation_ &mdash; Model of the _E. coli_ Min protein system _in vitro_; associated with Figs. 4, 5, 6, and Movies 2, 3, 4
 
-_FIS_ &mdash; Model of the ferrocyanide&ndash;iodate&ndash;sulfite reaction; associated with Movie 5
+_FIS_ &mdash; Model of the ferrocyanide&ndash;iodate&ndash;sulfite reaction; associated with Movie 6
 
 ## Comsol simulations
 Large-scale simulations of the reaction&ndash;diffusion equations are performed in the finite-element software Comsol. Exemplary setup files are provided that contain the settings to perform the simulations in Comsol 6.1.
