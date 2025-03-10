@@ -29,7 +29,7 @@ Mathematica is used to analyze the Comsol simulations and the experimental data.
 Moreover, it is used to perform pseudo-arclength continuation of the two-species PAR reaction&ndash;diffusion system. This is done using the implementation provided in the notebook continuation-setup.nb (fbrauns/2cMcRD-coarsening).
 
 ## Usage example
-The folder _usageExample-github_ contains two example simulations, including setup files for the Comsol simulations, simulation data, and analysis notebooks using Mathematica.
+The folder _usageExample-github_ contains two example simulations, including setup files for the Comsol simulations, simulation data, and analysis notebooks using Mathematica. To reproduce and analyze the data, the Comsol simulation is run, the data is exported as specified in the Comsol setup file to a text file, which is then imported using the Mathematica notebooks (Comsol2Mathematica2hdf5.nb is assumed to be in the same folder as the analysis notebooks). The Mathematica notebooks then provide different analysis steps.
 
 The subfolder _3s3cMcRD_ contains a small simulation of a three-species two-component McRD system with mutual-detachment reactions (.mph file). A triple junction is simulated, the junction angles measured, and compared with the non-equilibrium Neumann law (.nb file). The simulation and analysis notebooks finish in less than 5 minutes on a high-performance workstation. The simulation data is included (.txt files).
 
