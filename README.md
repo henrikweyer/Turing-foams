@@ -29,10 +29,10 @@ Mathematica is used to analyze the Comsol simulations and the experimental data.
 Moreover, it is used to perform pseudo-arclength continuation of the two-species PAR reaction&ndash;diffusion system. This is done using the implementation provided in the notebook continuation-setup.nb (fbrauns/2cMcRD-coarsening).
 
 ## Usage example
-The folder _usageExample-github_ contains two example simulations, including setup files for the Comsol simulations, simulation data, and analysis notebooks.
+The folder _usageExample-github_ contains two example simulations, including setup files for the Comsol simulations, simulation data, and analysis notebooks using Mathematica.
 
-The subfolder _3s3cMcRD_ contains a small simulation of a three-species two-component McRD system with mutual-detachment reactions. A triple junction is simulated, the junction angles measured, and compared with the non-equilibrium Neumann law. The simulation and analysis notebooks finish in less than 5 minutes on a high-performance workstation.
+The subfolder _3s3cMcRD_ contains a small simulation of a three-species two-component McRD system with mutual-detachment reactions (.mph file). A triple junction is simulated, the junction angles measured, and compared with the non-equilibrium Neumann law (.nb file). The simulation and analysis notebooks finish in less than 5 minutes on a high-performance workstation. The simulation data is included (.txt files).
 
-The subfolder _Min_ contains a small simulation of the Min mesh pattern and its (interrupted) coarsening. The simulation runs for about 30 minutes on a high-performance workstation. The simulation data is provided. The analysis notebooks measuring vertex angles and visualizing the interrupted-coarsening process run less than 5 minutes.
+The subfolder _Min_ contains a small simulation of the Min mesh pattern and its (interrupted) coarsening (.mph file). The simulation runs for about 30 minutes on a high-performance workstation. The simulation data is provided (.txt file). The analysis notebooks measuring vertex angles and visualizing the interrupted-coarsening process run less than 5 minutes (.nb files).
 
 
