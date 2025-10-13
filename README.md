@@ -1,5 +1,7 @@
 # Turing-foams
 
+[![DOI](https://zenodo.org/badge/832742500.svg)](https://doi.org/10.5281/zenodo.17336402)
+
 This repository contains supplementary simulation code for the project
 
 **Deciphering the Interface Laws of Turing Mixtures and Foams**
